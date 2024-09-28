@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    padding: 4rem 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #f3f4f6;
+}
+.footer .logo p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: #1da58e;
+}
+.footer p {
+    text-align: center;
+    max-width: 30rem;
+    font-size: 1.1rem;
+    color: #434141;
+}
+.footer p {
+    text-align: center;
+    max-width: 30rem;
+    font-size: 1.1rem;
+    color: #434141;
+    font-style: italic;
+}
+.footer ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.2rem;
+    color: #434141;
+    gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+.footer .icons {
+    display: flex;
+    gap: 1.5rem;
+    color: #434141;
+}
+.footer .icons i {
+    font-size: 1.5rem;
+}
+
+
+/* <i className={styles.face}class="fa-brands fa-facebook"></i>
+          <i className={styles.insta}class="fa-brands fa-instagram"></i>
+          <i className={styles.twit}class="fa-brands fa-twitter"></i>
+          <i className={styles.git}class="fa-brands fa-github"></i>
+          <i className={styles.bask}class="fa-solid fa-basketball"></i> */
